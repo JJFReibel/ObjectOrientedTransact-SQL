@@ -21,7 +21,7 @@ SOFTWARE.
 /*
 Implement Database as a module and table to be used as a class.
 Implement stored procedures to be used as functions.
-This syntax works for PostgreSQL.
+This syntax works for Transact-SQL, aka T-SQL, MS SQL, SQL Server, and Microsoft SQL Server.
 */
 
 /*
@@ -29,11 +29,7 @@ Create database, schema, table, settings, and instance of a car.
 */
 --CREATE DATABASE Vehicles;
 --CREATE SCHEMA Land_Vehicles;
-/*
-Note how wheels, doors, and cylinders are of type INT.
-In MySQL and SQLite, among others, they can be VARCHAR(255).
-Not in PostgreSQL, in order for the procedures to work and do math.
-*/
+
 CREATE TABLE Car(
 carId int IDENTITY(1,1) PRIMARY KEY,
 carName varchar(255),
