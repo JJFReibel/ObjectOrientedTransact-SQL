@@ -41,7 +41,7 @@ INSERT INTO Car (carName, wheels, doors, cylinders)
 VALUES ('subaru', 4, 4, 4);
 
 /* Implement stored procedures. */
-/*Uncomment ones neessary.
+/*Uncomment ones necessary.
 Procedures that contains multiple commands count as a batch.
 MS SQL, SQL Server, T-SQL, or Transact SQL can only handle one batch at a time in some systems.
 This can be easily avoided by using the MS SQL API and a .NET language, like C#.
